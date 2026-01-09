@@ -1,0 +1,88 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #fdf2f8, #eef2ff);
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 40px;
+}
+
+.box {
+    background: white;
+    width: 340px;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 5px;
+    color: #4f46e5;
+}
+
+.tagline {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4338ca;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 16px;
+    width: 240px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.card p {
+    color: gray;
+    font-size: 14px;
+}
+
+.card h2 {
+    color: #4f46e5;
+    margin-top: 10px;
+}
